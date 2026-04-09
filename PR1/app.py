@@ -12,7 +12,7 @@ from xgboost import XGBClassifier
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("European_Bank (1).csv")
+    df = pd.read_csv("European_Bank.csv")
     return df
 
 df = load_data()
